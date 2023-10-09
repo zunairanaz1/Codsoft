@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    
+    <!-- MATERIAL-ICON-CDN -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- SCROLL-JS -->
+    <script src="./assets/js/scroll.js" defer></script>
+
+    <!-- CHART-JS -->
+    <script src="./assets/js/chart.js" defer></script>
+
+    <!-- JS -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- ICON-START --> 
+    <script src="https://kit.fontawesome.com/1b1d9cd629.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- =====================NAVBAR-STARTS===================== -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <a href="#home"><h3 id="logo">TRIBUTE</h3></a>
+            <ul class="nav-menu">                
+                <li><a href="#Books">Books</a></li>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#Album">Album</a></li>
+                <li><a href="#honours">Honours</a></li>
+                <li><a href="#gallery">Gallery</a></li> 
+            </ul>
+
+            <button id="open-menu-btn"><span class="material-icons-sharp">menu</span></button>
+            <button id="close-menu-btn"><span class="material-icons-sharp">close</span></button>
+        </div>
+    </nav>
+    <!-- =====================NAVBAR-ENDS===================== -->
+    <main class="main">
+        <!-- =====================HEADER-STARTS===================== -->
+        <header id="home" class="section">
+            <div class="container header-container">
+                <!-- HEADER-LEFT-1 -->
+                <div class="header-left-1">
+                    <h1>AHMED FARAZ</h1>
+                    <p>
+                        Pakistani poet and scriptwriter
+                    </p>
+                </div>
+                <!-- HEADER-LEFT-2 -->
+                <div class="header-left-2">
+
+                    <section class="personalities" id="personalities">
+                        <div class="wrap">
+                
+                            <div class="quotes" id="personalities-quotes">
+                                <div class="active">
+                                    <div class="img"><img src="./assets/images/download (5).jpeg" ></div>
+                                    <h5>Ahmed Faraz</h5>
+                                    <p>"If we have only one that can govern, and we chose him... does that mean we're not democratic?"</p>
+                                </div>        
+                
+                                <div class="inactive">                
+                                    <div class="img"><img src="./assets/images/download (5).jpeg" ></div>
+                                    <h5>Ahmed Faraz</h5>
+                                    <p>"All people hope Islam helps everything in life. Islam will make jobs. Islam will make freedom. Islam will make everything."</p>                
+                                </div>            
+                                
+                                <div class="inactive">                
+                                    <div class="img"><img src="./assets/images/download (5).jpeg" ></div>
+                                    <h5>Ahmed Faraz</h5>
+                                    <p>"If we have only one that can govern, and we chose him... does that mean we're not democratic?"</p>                
+                                </div>           
+                                
+                                <div class="inactive">                
+                                    <div class="img"><img src="./assets/images/download (5).jpeg" ></div>
+                                    <h5>Ahmed Faraz</h5>
+                                    <p> "All people hope Islam helps everything in life. Islam will make jobs. Islam will make freedom. Islam will make everything."</p>
+                                </div>            
+                                
+                                <div class="inactive">                    
+                                    <div class="img"><img src="./assets/images/download (5).jpeg" ></div>
+                                    <h5>Ahmed Faraz</h5>
+                                    <p>"If we have only one that can govern, and we chose him... does that mean we're not democratic?"</p>                    
+                                </div>            
+                                
+                                <div class="inactive">                    
+                                    <div class="img"><img src="./assets/images/download (5).jpeg" ></div>
+                                    <h5>Ahmed Faraz</h5>
+                                    <p>"All people hope Islam helps everything in life. Islam will make jobs. Islam will make freedom. Islam will make everything."</p>                    
+                                </div>
+                
+                                <div class="inactive">                    
+                                    <div class="img"><img src="./assets/images/download (5).jpeg" ></div>
+                                    <h5></h5>
+                                    <p>"If we have only one that can govern, and we chose him... does that mean we're not democratic?"</p>                    
+                                </div>
+                
+                                <div class="inactive">                    
+                                    <div class="img"><img src="./assets/images/download (5).jpeg" ></div>
+                                    <h5>Ahmed Faraz</h5>
+                                    <p>"All people hope Islam helps everything in life. Islam will make jobs. Islam will make freedom. Islam will make everything."</p>                    
+                                </div>            
+                                
+                                <div class="inactive">                    
+                                    <div class="img"><img src="./assets/images/download (5).jpeg" ></div>
+                                    <h5>Ahmed Faraz</h5>
+                                    <p>"If we have only one that can govern, and we chose him... does that mean we're not democratic?"</p>                    
+                                </div>                
+                            </div>
+                            <ul class="no-display dots" id="personalities-dots">
+                                <li class="dot active"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <!-- HEADER-RIGHT -->
+                <div class="header-right">
+                    <div class="header-right-img">
+                        <img src="./assets/images/Ahmadfaraz1.jpg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- =====================HEADER-ENDS===================== -->
+        <!-- ====================BOOKS-STARTS===================== -->
+        <section class="container statistics section" id="statistics">
+            <h1 class="section-heading">Books</h1>
+
+            <section class="charts-container">
+
+                    <!-- CHART-1 -->
+<div
+                    <div class="chart-container pie-chart" id="chart-div1">
+                        <canvas class="chart-canvas"width="50" height="30" ></canvas>
+                        <img src="./assets/images/download (1).jpeg" alt="image">
+                    </div>
+
+                    <!-- CHART-2 -->
+
+                    <div class="chart-container pie-chart" id="chart-div2"><br><br><br><br><br><br>
+                        <canvas class="chart-canvas" width="0" height="20"></canvas>
+                        <img src="./assets/images/download (2).jpeg" alt="image">
+                    </div>
+
+
+                    <!-- CHART-3 -->
+
+                    <div class="chart-container pie-chart" id="chart-div3"><br>
+                        <canvas class="chart-canvas" width="50" height="30" ></canvas>
+                        <img src="./assets/images/download (3).jpeg" alt="image">
+                    </div>
+
+                   
+</div>
+            </section>
+        </section>        
+        <!-- ======================Books-ENDS======================= -->
+        <!-- ======================BIOGRAPHY-STARTS======================= -->
+        <section class="container biography section" id="biography">
+            <h1 class="section-heading">Biography</h1>
+            <div class="biography-wrapper">
+                <!-- --------------------------EARLY-LIFE------------------------- -->
+                <article id="early-life" class="early-life-biography">
+                    <h3>Early Life</h3>
+
+                    <p id="early-life-para">
+                        Ahmed Faraz has born Syed Ahmed Shah on 12 January 1931 in Kohat. 'Faraz' is his pen name.
+                        <button class="close-biography-btn close-btn no-display"><span class="material-icons-sharp">close</span></button>
+                        <button class="btn btn-primary biography-detailed-btn">Read More</button>
+                        <span  id="early-life-details" class="no-display">    
+                           he is a son of Syed Muhammad Shah Bark.His brother is Masood Kausar, an ex Governor of Khyber Pakhtunkhwa, Pakistan. Faraz had earlier moved to Peshawar from Kohat District with his family. He studied at Edwardes College, Peshawar and received his Master's degree in Urdu and Persian from Peshawar University.During his college life, the two poets Faiz Ahmad Faiz and Ali Sardar Jafri influenced him and became Faraz's role models.
+                        </span>
+                    </p>                
+                </article>
+                <!-- --------------------------EARLY-CAREER------------------------- -->
+                <article id="early-career" class="early-career-biography">
+                    <h3>Political Career</h3>
+
+                    <p id="polical-career-para">
+                        Ahmed Faraz was a visionary person and never hesitated in expressing his views and opinions.
+                        <button class="close-biography-btn close-btn no-display"><span class="material-icons-sharp">close</span></button>
+                        <button class="btn btn-primary biography-detailed-btn">Read More</button>
+                        <span  id="political-career-details" class="no-display">
+                            This outspoken nature of Faraz caused him quite of troubles in life. He admired Zulfiqar Ali Bhutto very much as a politician. He was very much active during the student and labor movement held during the 1960s.  He was not much fond of military rule. He felt heartbroken for the atrocities that the people of East Pakistan faced at the hands of Pakistani military. He dared to call the Pakistan Army as “professional killers” due to their brutalities in East Pakistan. Even in his poems and writings he severely criticized military regime for this reason, during a mushaira held while Zia-ul-Haq was in power. As a result, Ahmed Faraz was arrested. After this incident he left Pakistan and moved to Europe and Canada. After six years he returned to Pakistan. Even during the regime of General Parvez Musharraf he issued statements regarding the former dictator’s policies in Baluchistan that made the dictator cross. As a result the government drove out the poet and his family from their home in the capital city of Islamabad. Their belongings were thrown onto the road. In the year of 2007, Prime Minister Shaukat Aziz removed the poet from the post that he occupied as the chairman of the National Book Council. In 2006 he even returned his Hilal-e-Imtiaz which was awarded to him in 2004.
+                        </span>   
+                    </p>                
+                </article>
+                <!-- --------------------------IPL-CAREER------------------------- -->
+                <article id="ipl-career" class="ipl-career-biography"> 
+                    <h3>Poetic Style </h3>
+  
+                    <p id="ipl-career-para">
+                        There is progressive and vast outlook 
+                        <button class="close-biography-btn close-btn no-display"><span class="material-icons-sharp">close</span></button>
+                        <button class="btn btn-primary biography-detailed-btn">Read More</button>
+                        <span  id="ipl-career-details" class="no-display">
+                            in his voice. Apart from Ghazal the dominant form of Urdu poetry, Faraz wrote beautiful nazms, but his ghazals are well-known and prominent. Love is among the dominant themes of Urdu ghazals and so is in the Farazâ€™s poetry.
+                    </p>
+                </article>
+                <!-- --------------------------INTERNATIONAL-START------------------------- -->
+                <article id="international-start" class="international-start-biography">
+                    <h3>Major Works</h3>
+   
+                    <p id="international-start-para" >
+                        Some of his notable poetry collections include "Tanha Tanha," "Dard-e-Ashob," and "Nayaft."
+                        <button class="close-biography-btn close-btn no-display"><span class="material-icons-sharp">close</span></button>
+                        <button class="btn btn-primary biography-detailed-btn">Read More</button>
+                        <span  id="international-start-details" class="no-display">
+                            His ghazals and nazms (poems) gained immense popularity for their emotional depth and lyrical beauty.
+                        "Ranjish Hi Sahi" is one of his most famous ghazals, which has been sung by various artists.<br><br>
+
+                        </span>
+                    </p>
+                </article>
+                <!-- --------------------------CAPTAINSHIP-START------------------------- -->
+                <article id="captainship-start" class="captainship-start-biography">
+                    <h3> Influence on Poetry</h3>
+    
+                    <p id="captainship-start-para" >
+                        Faraz's work has inspired generations of poets and remains a source of inspiration for Urdu literature enthusiasts.
+                        <button class="close-biography-btn close-btn no-display"><span class="material-icons-sharp">close</span></button>
+                        <button class="btn btn-primary biography-detailed-btn">Read More</button>
+                        <span  id="captainship-start-details" class="no-display">                
+                            His ability to blend classical and modern themes in his poetry has earned him a lasting place in the literary world.
+                            Ahmed Faraz's poetry transcends time and continues to resonate with readers, making him a revered figure in Urdu literature.
+                        </span>
+                    </p>
+                </article>
+                <!-- --------------------------CAPTAINSHIP-END------------------------- -->
+                <article id="captainship-end" class="captainship-end-biography">
+                    <h3>Exile and Return
+                    </h3>
+   
+                    <p id="captainship-end-para" >
+                        During the military regime of General Zia-ul-Haq in the late 1970s, Faraz went into self-imposed exile in the United Kingdom due to his outspoken views against the government.
+                        He returned to Pakistan in 1988 after the end of the Zia era.
+                        <button class="close-biography-btn close-btn no-display"><span class="material-icons-sharp">close</span></button>
+                        <button class="btn btn-primary biography-detailed-btn">Read More</button>
+                        <span  id="captainship-start-details" class="no-display">         
+                            During the military regime of General Zia-ul-Haq in the late 1970s, Faraz went into self-imposed exile in the United Kingdom due to his outspoken views against the government.
+                            He returned to Pakistan in 1988 after the end of the Zia era.
+                        </span>
+                    </p>
+                </article>
+                <!-- --------------------------RETIREMENT------------------------- -->
+                <article id="retirement" class="retirement-biography">
+                    <h3>End Of an Era</h3>
+
+                    <p id="retirement-para">
+                        Ahmed Faraz died on this day in 2008, due to kidney failure and was buried in Islamabad.  Ahmed Faraz's death marked the "End of an Era" in the sense that it signified the departure of a literary giant who had significantly shaped the landscape of Urdu poetry. 
+                        <button class="close-biography-btn close-btn no-display"><span class="material-icons-sharp">close</span></button>
+                        <button class="btn btn-primary biography-detailed-btn">Read More</button>
+                        <span  id="retirement-details" class="no-display">
+                            His contributions, both in terms of literary innovation and his commitment to social issues, left an enduring legacy in the world of Urdu literature, making him an iconic figure in the history of Urdu poetry.
+                        </span>
+                    </p>
+                </article>
+                <!-- --------------------------TERRITORIAL-ARMY------------------------- -->
+                <article id="territorial-army" class="territorial-army-biography"> 
+                    <h3>Impact on Urdu Poetry</h3>
+  
+                    <p id="territorial-army-para">
+                        Ahmed Faraz is regarded as one of the leading poets of the Progressive Writers' Movement in Pakistan.
+His poetry often addressed issues like social justice, love, and human emotions.
+He played a pivotal role in shaping modern Urdu poetry. 
+                        <button class="close-biography-btn close-btn no-display close-btn"><span class="material-icons-sharp">close</span></button>
+                        <button class="btn btn-primary biography-detailed-btn ">Read More</button>
+                        <span  id="territorial-army-details" class="no-display">
+                            justice, love, and human emotions.
+                            He played a pivotal role in shaping modern Urdu poetry. 
+                        </span>
+                    </p>
+                </article>
+            </div>
+        </section>
+        <!-- ======================BIOGRAPHY-ENDS======================= -->
+        <!-- ======================HONOURS-STARTS======================== -->
+        <section class="honours container section" id="honours">
+            <div class="wrapper">
+                <h1 class="section-heading honours-heading1">Honours</h1>
+                <h1 class="honours-heading2">Hall Of Fame</h1>
+                <div class="honours-wrapper">
+                    <!-- NATIONAL-HONOURS -->
+                    <div class="national-honours" id="national-honours">
+                        <ul class="national-honours-ul honours-ul">
+                            <li>Ahmad Faraz was first awarded the Sitara-i-Imtiaz by the Government of Pakistan </li>
+                            <li>Ahmad Faraz was awarded the Hilal-e-Imtiaz in 2004 by the then President of Pakistan Pervez Musharraf. </li>
+                            <li>Ahmad Faraz returned this award two years later in 2006 
+                            <li>Ahmad Faraz was awarded the Adamji Award</li>
+                            <li>Ahmad Faraz was awarded the Abaseen Award</li>
+                            <li>Ahmad Faraz was awarded the Kamal-e-Fun </li>
+                        </ul>                    
+                    </div>
+        </section>
+        <!-- ======================HONOURS-ENDS======================== -->
+        <!-- =====================ALBUM-START===================== -->
+          
+ <section class="services" id="services">
+    <div class="heading"><br>
+        <h2>Faraz Album</h2>
+    </div>
+    <div class="services-content">
+
+        <div class="services-box">
+            <i class='bx bx-server'></i>
+            <h3>Ghazals</h3>
+            <a href="https://youtu.be/1_f5xrG5Qfo?si=T-R85QZJ99XjOYU2">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bx-brush'></i>
+            <h3>Poems</h3>
+            <a href="https://youtu.be/IROtZQCjS7I?si=YjDrKHhLgcW68LP5">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxl-android'></i>
+            <h3>Rekhta</h3>
+            <a href="https://www.rekhta.org/poets/ahmad-faraz/ghazals">Learn More</a>
+        </div>
+    </div>
+</section>
+        <!-- ====================GALLERY-STARTS===================== -->
+        <section class="container gallery section" id="gallery">
+            <div class="wrapper">
+                <h1 class="section-heading">GALLERY</h1>
+                <!-- GALLERY-IMAGES -->
+                <div id="image-gallery" class="image-gallery">               
+                    <figure>
+                        <img  src="assets/images/gallery" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+
+                        <img  src="assets/images/download (1).jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+
+                        <img  src="assets/images/download (2).jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+
+                        <img  src="assets/images/download (3).jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+
+                        <img  src="assets/images/download (4).jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+
+                        <img  src="assets/images/download (5).jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+
+                        <img  src="assets/images/gallery 1.jpg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+
+                        <img  src="assets/images/gallery 2.jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+                    </figure>
+                </div>
+                <!-- GALLERY-BUTTON -->
+                <div >
+                    <button id="gallery-btn" class="btn btn-primary" data-visible="false">Show More</button>
+                </div>
+                <!-- GALLERY-FULL-SCREEN-VIEW -->
+                <div id="full-screen-gallery" class="no-display">
+                    <button class="close-gallery-btn close-btn"><span class="material-icons-sharp">close</span></button>
+                    <button class="previous-gallery-btn backward-btn"><span class="material-icons-sharp">arrow_back_ios</span></button>
+                    <button class="next-gallery-btn forward-btn"><span class="material-icons-sharp">arrow_forward_ios</span></button>
+                    <div id="full-screen-image-container">
+                        <figure>
+                            <img  src="assets/images/gallery" class="gallery-img" id="image-gallery-1">
+                            <img  src="assets/images/gallery" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+
+                            <img  src="assets/images/download (1).jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+    
+                            <img  src="assets/images/download (2).jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+    
+                            <img  src="assets/images/download (3).jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+    
+                            <img  src="assets/images/download (4).jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+    
+                            <img  src="assets/images/download (5).jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+    
+                            <img  src="assets/images/gallery 1.jpg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+    
+                            <img  src="assets/images/gallery 2.jpeg" alt="Ahmed Faraz Image" class="gallery-img" id="image-gallery-1">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <!-- ======================GALLERY-ENDS======================= -->
+    
+    <!-- =====================FOOTER-START===================== -->
+    <footer class="footer section">
+        <div class="container footer-container">
+            <!-- FOOTER-1 -->
+            <div class="footer-2">
+                <h4>Links</h4>
+                <ul class="permalinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Book">Book</a></li>
+                    <li><a href="#biography">Biography</a></li>
+                    <li><a href="#Album">Album</a></li>
+                    <li><a href="#honours">Honours</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <!-- FOOTER-2 -->
+            <div class="footer-1">
+                <h4>WEBSITE</h4>
+                <p>
+                    This website is designed and developed by Zunaira Naz.
+                    Lets build fascinating, responsive, fast and secure websites. 
+                </p>
+                <button class="btn footer-btn"> <a href="https://mail.google.com/mail/u/4/#inbox?compose=CllgCKCBkBPSXqHJRMkDRpGcJZpkrwvSFVFGdQvdBRJvJltDdfXQpBVvCqDjzZGgdNqXqxQVBcg" target="_blank">Lets Connect</a></button>
+            </div>
+            <!-- FOOTER-3 -->
+            <div class="footer-3">
+                <h4>Social Handles</h4>
+                <ul class="footer-socials">
+                    <li>  <a href="https://www.instagram.com/zunaira-naz-" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li>  <a href="https://twitter.com/ZunairaNaz31834" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li>  <a href="https://www.linkedin.com/in/zunaira-naz-886608257/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li>  <a href="https://github.com/zunairanaz1" target="_blank"><i class="fab fa-github"></i></a> </li>
+                </ul>
+            </div>
+            <!-- FOOTER-4 -->
+            <div class="footer-4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>03123456789</p>
+                    <p>nazzunaira63@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <small class="general">
+            <p>Developed and Designed by <mark> <b>zunaira-naz</b></mark></p>
+        </small>
+        
+    </footer>
+    <!-- =====================FOOTER-ENDS===================== -->
+</main>
+</body>
+</html>
